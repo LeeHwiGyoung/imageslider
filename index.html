@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imageslide</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <label class="upload" for="upload_image">이미지 업로드</label>
+        <input
+          class="sr-only"
+          type="file"
+          name="upload_image"
+          id="upload_image"
+        />
+      </header>
+      <section>
+        <button class="btn-prev" type="button">prev</button>
+        <ul class="image-slider">
+          <li>
+            <img src="./src/assets/st.png" alt="" />
+          </li>
+          <li>
+            <img src="./src/assets/ra.png" alt="" />
+          </li>
+          <li>
+            <img src="./src/assets/cro.png" alt="" />
+          </li>
+          <li>
+            <img src="./src/assets/li.png" alt="" />
+          </li>
+          <li>
+            <img src="./src/assets/dog.png" alt="" />
+          </li>
+        </ul>
+        <button class="btn-next" type="button">next</button>
+      </section>
+    </div>
+  </body>
+</html>
